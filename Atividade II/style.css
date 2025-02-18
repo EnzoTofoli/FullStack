@@ -1,0 +1,19 @@
+#index-color{
+    background-color: #90e0ef;
+}
+
+#project-color{
+    background-color: #89c2d9;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+.fei{
+    color: blue;
+}
+
+#site:hover{
+    color:red
+}
