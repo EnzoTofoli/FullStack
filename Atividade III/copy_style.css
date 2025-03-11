@@ -1,0 +1,137 @@
+.top_border{
+    border: 3px solid darkblue;
+}
+
+.title_pos{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    align-items: center;
+}
+
+.title{
+    color: darkgreen;
+}
+
+#background_color{
+    background-color: lightgray;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightskyblue;
+}
+
+
+.home_link{
+    color: darkred;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.livros_link{
+    color: darkred;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.videos_link{
+    color: darkred;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contatos_link{
+    color: darkred;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title_name{
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20pt;
+    color: indigo;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.video_map{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.video{
+    padding-right: 50px;
+}
+
+.map{
+    padding-left: 50px;
+}
+
+.table_div{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border: 5px solid red;
+    border-style: dashed;
+    padding: 2px;
+    margin-bottom: 50px;
+}
+
+.red_name{
+    color: red;
+}
+
+th, td{
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.separate{
+    display: flex;
+    justify-content: center;
+}
+
+.sites{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: yellow;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.site_color{
+    color: darkred;
+    padding-left: 75px;
+    padding-right: 100px;
+}
+
+.end_text{
+    font-family: Comic Sans MS;
+    font-size: 15pt;
+}
