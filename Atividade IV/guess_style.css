@@ -25,9 +25,12 @@ button{
     font-size: 16px;
     margin-left: 10px;
     cursor: pointer;
+<<<<<<< HEAD:Atividade IV/guess_style.css
 }
 
 #resposta{
     display: inline-block;
     padding: 5px 10px;
+=======
+>>>>>>> 185bd04822844b8832b37994e0c57c15dd400a1c:Atividade III/guess_style.css
 }
