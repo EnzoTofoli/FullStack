@@ -20,10 +20,10 @@ table, th, td{
     margin-top: 30px;
 }
 
-.home_fixed{
+/*.home_fixed{
     position: fixed;
-    top: 5px;
-}
+  margin-bottom: 10px;
+}*/
 
 .projects_fixed{
     position: fixed;
