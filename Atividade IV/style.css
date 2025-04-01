@@ -33,15 +33,31 @@ table, th, td{
 
 .site_margin{
     position: relative;
-    margin: 50px;
-    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
 }
 
 .site{
-    display: inline;
+    width: fit-content;
     border: 1px solid black;
     background-color: lightskyblue;
-    padding: 5px;
+}
+
+.site_list{
+    width: fit-content;
+    border: 1px solid black;
+    background-color: lightskyblue;
 }
 
 .site:hover{
