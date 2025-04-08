@@ -54,7 +54,6 @@ function desenharCanvas1() {
     ctx.stroke();
   }
 
-  // --- Seu código do canvas 1 ---
   ctx.fillStyle = 'white';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -88,7 +87,6 @@ function desenharCanvas2() {
   const canvas = document.getElementById('canvas2');
   const ctx = canvas.getContext('2d');
 
-  // --- Mesmas funções auxiliares de antes, mas agora nesse contexto ---
   function desenhar_quadrado(x, y, cor, tamanho = 40) {
     ctx.fillStyle = cor;
     ctx.fillRect(x, y, tamanho, tamanho);
@@ -111,7 +109,6 @@ function desenharCanvas2() {
     ctx.fill();
   }
 
-  // --- Seu código do canvas 2 ---
   ctx.fillStyle = 'white';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
